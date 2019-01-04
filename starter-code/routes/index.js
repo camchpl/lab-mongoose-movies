@@ -6,4 +6,12 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+router.get('/celebrities', (req, res, next) => {
+  res.render('index');
+})
+// .catch((error) => {
+//   console.log(error);
+// })
+
+
 module.exports = router;
